@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="9">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <ImageView
+                android:id="@+id/header_user_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="6"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/user"/>
+
+            <TextView
+                android:id="@+id/header_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textColor="@android:color/holo_purple"
+                android:textStyle="bold"
+                tools:text="User Name"
+                />
+
+            <TextView
+                android:id="@+id/header_user_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center_vertical"
+                android:padding="2dp"
+                android:textColor="@android:color/holo_purple"
+                tools:text="abc@gmail.com"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:layout_gravity="bottom"
+                android:background="#9E9E9E"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

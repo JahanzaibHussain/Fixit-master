@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/update_my_profile"
+        android:icon="@android:drawable/checkbox_on_background"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/discard"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="100"
+        android:title="Discard"
+        app:showAsAction="never"/>
+</menu>
